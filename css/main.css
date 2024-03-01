@@ -1,0 +1,32 @@
+section {
+    width: 300px;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+}
+
+section>img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+section>div {
+    padding: 10px;
+}
+section>div>p{
+    color: hsl(220, 15%, 55%);
+
+}
+section>div>h2{
+    color: hsl(218, 44%, 22%);
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+}
